@@ -1,7 +1,10 @@
 
 #import "RNAcpUserProfile.h"
-
+#import "ACPUserProfile.h"
+#import "React/RCTLog.h"
 @implementation RNAcpUserProfile
+
+
 
 - (dispatch_queue_t)methodQueue
 {
@@ -9,7 +12,7 @@
 }
 
 
-RCT_EXPORT_MODULE(ACPUserProfile);
+
 
 RCT_EXPORT_METHOD(extensionVersion: (RCTPromiseResolveBlock) resolve rejecter:(RCTPromiseRejectBlock)reject) {
     resolve([ACPUserProfile extensionVersion]);
@@ -19,12 +22,13 @@ RCT_EXPORT_METHOD(registerExtension) {
     [ACPUserProfile registerExtension];
 }
 
-RCT_EXPORT_METHOD(removeUserAttribute: (nonnull NSString*) attributeName) {
-    [ACPUserProfile removeUserAttribute:attributeName];
+RCT_EXPORT_METHOD(printMessage)
+{
+RCTLogInfo(@"Custom Message");
 }
 
+RCT_EXPORT_MODULE(RNAcpUserProfile);
 
 
 
 @end
-

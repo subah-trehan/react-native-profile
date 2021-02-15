@@ -1,6 +1,7 @@
 
 package com.reactlibrary;
 
+import android.util.Log;
 import com.adobe.marketing.mobile.InvalidInitException;
 import com.adobe.marketing.mobile.UserProfile;
 import com.facebook.react.bridge.Promise;
@@ -30,6 +31,13 @@ public class RNAcpUserProfileModule extends ReactContextBaseJavaModule {
        Log.d(getName(), "Registering UserProfile extension failed with error: " + e.getMessage());
      }
    }
+
+   @ReactMethod
+    public String printMessage() {
+
+    return "test message";
+
+    }
 
   @Override
   public String getName() {
