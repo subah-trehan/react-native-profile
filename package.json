@@ -1,6 +1,6 @@
 {
   "name": "react-native-acp-user-profile",
-  "version": "1.0.68",
+  "version": "1.0.69",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,6 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "react-native": ">=0.44.0",
     "react-native": "0.41.2"
   },
   "peerDependencies": {
