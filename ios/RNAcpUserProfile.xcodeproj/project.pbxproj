@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNAcpUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNAcpUserProfile.m */; };
-		B828357A25D687D400557896 /* ACPUserProfile.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B828357925D687D400557896 /* ACPUserProfile.xcframework */; };
-		B8B5FA6125D6E624008FE362 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B5FA4925D6E606008FE362 /* libReact.a */; };
+		B8B5015C25DD18FC008FE362 /* ACPUserProfile.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B828357925D687D400557896 /* ACPUserProfile.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,8 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B5FA6125D6E624008FE362 /* libReact.a in Frameworks */,
-				B828357A25D687D400557896 /* ACPUserProfile.xcframework in Frameworks */,
+				B8B5015C25DD18FC008FE362 /* ACPUserProfile.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
