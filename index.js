@@ -14,7 +14,7 @@ governing permissions and limitations under the License.
 
 import { NativeModules } from 'react-native';
 
-const  {RNAcpUserProfile}  = NativeModules;
+const  RNAcpUserProfile  = NativeModules.RNAcpUserProfile;
 
 module.exports = {
 
