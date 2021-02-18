@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/subah-trehan/react-native-profile.git", :tag => "#{s.version}" }
-  s.source_files  = "RNAcpUserProfile/**/*.{h,m}"
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
 
