@@ -12,8 +12,9 @@ governing permissions and limitations under the License.
 */
 
 'use strict';
+import {NativeModules} from 'react-native';
 
-const RNAcpUserProfile = require('react-native').NativeModules.RNAcpUserProfile;
+const RNAcpUserProfile = NativeModules.RNAcpUserProfile;
 
 module.exports = {
   /**
