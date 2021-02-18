@@ -1,8 +1,8 @@
 {
   "name": "react-native-acp-user-profile",
-  "version": "1.0.75",
+  "version": "1.0.77",
   "description": "",
-  "main": "./js/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
